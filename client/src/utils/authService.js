@@ -98,7 +98,7 @@ var userProfile;
 function getProfile() {
     if (!userProfile) {
         var accessToken = localStorage.getItem('access_token');
-        
+
         if(!accessToken) {
             console.log('Access token must exist to fetch profile');
         }
@@ -126,15 +126,15 @@ loggedInCheck()
 function displayProfile() {
     console.log(JSON.stringify(userProfile, null, 2)
 );
-    
-  // Show user name in welcome
-    if (userProfile.given_name === 'undefined') {
-      document.querySelector('.userWelcome').innerHTML = "Welcome, " + userProfile.nickname + "!";
-    }
-    else {
-      document.querySelector('.userWelcome').innerHTML = "Welcome, " + userProfile.given_name + "!";
-    }
-    
+
+  // // Show user name in welcome
+  //   if (userProfile.given_name === 'undefined') {
+  //     document.querySelector('.userWelcome').innerHTML = "Welcome, " + userProfile.nickname + "!";
+  //   }
+  //   else {
+  //     document.querySelector('.userWelcome').innerHTML = "Welcome, " + userProfile.given_name + "!";
+  //   }
+
 }
 
 

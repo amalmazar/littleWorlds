@@ -4,6 +4,7 @@ import App from './App.jsx';
 import Shop from './components/shop.jsx';
 import About from './components/about.jsx';
 import Home from './components/home.jsx';
+import Buy from './components/buy.jsx';
 import Callback from './components/Callback'
 
 export default (
@@ -13,6 +14,6 @@ export default (
         <Route path='home' component={Home}></Route>
         <Route path='about' component={About}></Route>
         <Route path='callback' component={Callback}></Route>
+        <Route path='buy' exact='false' component={Buy}></Route>
     </Route>
-
 );
