@@ -1,0 +1,23 @@
+.h2 {
+    text-align: center;
+}
+
+.shopItems {
+}
+
+.card-content {
+}
+
+.small {
+    height: 200px !important;
+    background-color: rgba(245, 245, 245, 0.82);
+}
+
+.center-align {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.everything {
+    background-color: #9FB9AD;
+}

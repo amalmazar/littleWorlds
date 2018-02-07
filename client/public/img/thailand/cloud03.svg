@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 602 82" style="enable-background:new 0 0 602 82;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{mask:url(#SVGID_1_);}
+	.st2{fill:#FFFFFF;}
+</style>
+<g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0.3" y="0.3" width="601.8" height="82.1">
+			<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+			<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="0.3" y="0.3" width="601.8" height="82.1" id="SVGID_1_">
+		<g class="st0">
+			
+				<image style="overflow:visible;" width="607" height="87" xlink:href="802AAC91C4BF83FC.jpg"  transform="matrix(1 0 0 1 -2 -2)">
+			</image>
+		</g>
+	</mask>
+	<g class="st1">
+		<path class="st2" d="M292,41.3c0,0-254-22-278,0s-24,48,62,32s214-20,256-6s276,19.9,270,11s-52-5.5-60-21.2s2-69.7-108-53.7
+			S409.7,49,292,41.3z"/>
+	</g>
+</g>
+</svg>

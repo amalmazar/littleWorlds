@@ -1,0 +1,44 @@
+/*
+Font weights: 200, 200i, 400, 500, 700
+*/
+
+body {
+    display: flex;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 200;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+h1, h1 {
+    font-family: 'raleway', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+/* fix this! */
+li:hover {
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: #1d2929 !important;
+}
+
+.blurOn {
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+            -webkit-filter: url(#blur-filter);
+            filter: url(#blur-filter);
+            -webkit-filter: blur(3px);
+            filter: blur(3px);
+}
+
+.worldContainer {
+    width: 800px;
+    height: 500px;
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.h1 {
+  clear: both;   
+}

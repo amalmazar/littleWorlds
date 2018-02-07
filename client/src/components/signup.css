@@ -1,0 +1,25 @@
+.fadeBack {
+    margin: 0 auto !important;
+    background-color: rgba(255, 255, 255, 0.43);
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    position: absolute;
+    z-index: 300;
+    text-align: center;
+/*    display: none;*/
+}
+
+Button {
+    display: block;
+    clear: both;
+}
+
+.transparent {
+    color: #213631;
+}
+
+.greenButton {
+    color: #fff;
+    background-color: #213631 !important;
+}

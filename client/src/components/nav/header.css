@@ -1,0 +1,70 @@
+#header {
+    background-color: #213631;
+    box-shadow: none;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.nav-center {
+    text-align: center !important;
+    float: none !important;
+    display: inline-block;
+}
+
+#header a {
+    color: #55716f;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #1d2929 !important;
+}
+
+nav ul a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #1d2929 !important;
+}
+
+.logo {
+    margin-top: 10px;
+    height: 30vh;
+    max-height: 100px;
+    z-index: 400;
+    float: left;
+}
+
+a {
+    transition: box-shadow .none !important;
+    box-shadow: none !important;
+    background-color: none !important;
+}
+
+.nav-wrapper {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.36);
+    padding: 0 10px;
+}
+
+.left-align {
+    float: left;
+}
+
+.right-align {
+    float: right;
+}
+
+.userWelcome {
+    color: #55716f;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+
+@media only screen and (min-width: 1800px) {
+    .userWelcome::after {
+        content: " Your screen is too large. Mabybe you should consider getting a smaller, more practical screen."
+    }
+}
