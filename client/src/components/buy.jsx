@@ -5,7 +5,7 @@ class Buy extends Component {
   componentDidMount() {
     const world = window.location.href.slice(-1);
     const user = localStorage.getItem('uid');
-    axios.post(`api/buy/${world}`, {
+    axios.post(`/api/buy/${world}`, {
       "world" : `${world}`,
       "buyer": `${user}`
     })
