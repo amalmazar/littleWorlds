@@ -1,0 +1,21 @@
+.parakeet, .flutter {
+    z-index: 200;
+    height: 48%;
+    position: absolute;
+    bottom: -55px;
+    right: 85px;
+}
+
+.flutter {
+  animation: one 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes squish {
+  0% {
+    transform: rotateX(40deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}

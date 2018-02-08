@@ -45,7 +45,7 @@
 
 /*/ MOUNTAIN /*/
 
-.mtn01, .mtn02, .sea, .sand {
+.mtn01, .mtn02, .sea, .sand, .mtn03 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -61,6 +61,11 @@
 .mtn02 {
     z-index: 1;
     background-image: url(/img/thailand/mountains02.svg);
+    background-repeat: no-repeat;
+}
+.mtn03 {
+    z-index: 1;
+    background-image: url(/img/thailand/mountains03.svg);
     background-repeat: no-repeat;
 }
 .sea {

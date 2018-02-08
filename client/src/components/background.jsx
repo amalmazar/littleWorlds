@@ -43,7 +43,7 @@ class Background extends Component {
         
         mountainTwo.style.backgroundPositionX = startX - 290 + (shiftX/10) + 'px';
         mountainOne.style.backgroundPositionX = startX - 90 + (shiftX/30) + 'px';
-        console.log(mountainTwo.style.borderColor);
+        sand.style.backgroundPositionX = startX - 100 + (shiftX/30) + 'px';
     }
     
     
@@ -66,9 +66,11 @@ class Background extends Component {
        <div>       
            <div onMouseMove={this.onMouseMove.bind(this)} className='backgroundElements' ref='bgElements'>
                 <div className="sea"></div>
+                <div className="mtn03" ref="mountainThree"></div>
                 <div className="sand" ref="sand"></div>
                 <div className="mtn01" ref="mountainOne"></div>
                 <div className="mtn02" ref="mountainTwo"></div> 
+                 
                  
             </div>
        </div>

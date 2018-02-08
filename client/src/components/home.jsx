@@ -7,6 +7,8 @@ import Top from './nav/header.jsx';
 import Bottom from './nav/footer.jsx';
 import SignUp from './signup.jsx';
 import Boat from './boat.jsx';
+import Parakeet from './parakeet.jsx';
+import Tree from './tree.jsx';
 import Background from './background.jsx';
 import { isLoggedIn } from './../utils/authService';
 
@@ -26,8 +28,10 @@ export default class Home extends Component {
             <SignUp></SignUp>
                 <Top imageUri='./img/logo.png'></Top>
                 <div className="worldContainer">
+                    <Tree></Tree>
+                    <Parakeet sound='./sound/lorikeet.wav'></Parakeet>
                     <Boat sound='./sound/water-swirl.wav'></Boat>
-                    <Background sound='./sound/water-swirl.wav'></Background>
+                    <Background sound='./sound/ambiance.wav'></Background>
                 </div>
                 <Bottom imageUri='./img/logo2-light.png'></Bottom>
                 <Switch>
@@ -42,7 +46,9 @@ export default class Home extends Component {
             <SignUp></SignUp>
                 <Top imageUri='./img/logo.png'></Top>
                 <div className="worldContainer blurOn">
-                    <Boat sound='./sound/water-swirl.wav'></Boat>
+                    <Tree sound='./sound/water-swirl.wav'></Tree>
+                    <Boat></Boat>
+                    
                     <Background></Background>
                 </div>
                 <Bottom imageUri='./img/logo2-light.png'></Bottom>

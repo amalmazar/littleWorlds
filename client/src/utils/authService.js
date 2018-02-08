@@ -137,4 +137,4 @@ function displayProfile() {
 
 }
 
-
+export default userProfile;

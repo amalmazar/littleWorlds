@@ -12,21 +12,18 @@ export default class Shop extends Component {
         worlds : [
             {
                 id: 1,
-                title: 'World 1',
-                description: 'I am a very simple card. I am good at containing small bits of information.',
-                image: 'logo.png'
+                title: 'Ski Chalet',
+                description: 'Make yourself at home here. Grab a hot cocoa, cuddle up in front of the fire and enjoy the views of snow falling and skiiers enjoying the slopes.'
             },
             {
                 id: 2,
-                title: 'World 2',
-                description: 'I am a very simple card. I am good at containing small bits of information.',
-                image: 'logo.png'
+                title: 'Rain Forest',
+                description: 'Enjoy a bird’s eye view of the lush rainforest, observe quietly through the rainforest canopy where you’ll encounter plants and animals rarely seen.'
             },
             {
                 id: 3,
-                title: 'World 3',
-                description: 'I am a very simple card. I am good at containing small bits of information.',
-                image: 'logo.png'
+                title: 'Scenic Australian Countryside',
+                description: 'I am a very simple card. I am good at containing small bits of information.'
             }
         ]
       }
@@ -39,7 +36,7 @@ export default class Shop extends Component {
     const {worlds} = this.state;
     const productList = worlds.map((world,index) => (
         <Col className='shopItems' l={4} m={6} s={12} key={index}>
-            <CardTitle image={`img/${world.image}`}>{world.title}</CardTitle>
+            <CardTitle><div><h4>{world.title}</h4></div></CardTitle>
             <Card
                 className='small'
                 key={world.id}
