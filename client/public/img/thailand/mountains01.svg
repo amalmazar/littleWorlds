@@ -1,12 +1,37 @@
-<svg id="koh_koh" data-name="koh koh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1023">
-    <defs>
-        <style>
-            .cls-1{fill:#385646;}
-            .cls-2{fill:#577a69;}
-        </style>
-    </defs>
-    <title>Artboard 2</title>
-    <path class="cls-1" d="M332,282s25-93,41-119,45-51,72-16,96,179,96,188,79,197,58,196-60-9-81-9-83,27-90,21-13-36-37-29-86,46-98,30S332,282,332,282Z"/>
-    <path class="cls-2" d="M77,498s13,2,40,11,108-10,144-5.5S379,519,389,511s-17-135-9-170-55-133-79-159S248,73,218,79s-87,127-94,190S77,498,77,498Z"/>
-    <path class="cls-1" d="M389,511c10-8-17-135-9-170s-55-133-79-159S248,73,218,79c-15.5,3.1,66.94,91.37,114,203C376,386.39,384.17,514.87,389,511Z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="koh_koh" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 1023" style="enable-background:new 0 0 1440 1023;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:#385646;}
+	.st4{fill:#577A69;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="482.1095" y1="234.8227" x2="474.7553" y2="545.2958" gradientTransform="matrix(1 0 0 -1 0 1024)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#385646"/>
+</linearGradient>
+<path class="st0" d="M322,497.1c12-16,47.2-8.8,72-12c28-3.6,56,19,63,13s69-10,90-10s61-3.3,81,9c17.9,11-58,200-58,209
+	s-69,153-96,188s-56,10-72-16s-41-119-41-119S310,513.1,322,497.1z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="234.1267" y1="239" x2="234.1267" y2="596.0116" gradientTransform="matrix(1 0 0 -1 0 1024)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="0.8218" style="stop-color:#577A69"/>
+</linearGradient>
+<path class="st1" d="M124,738.1c7,63,64,184,94,190s59-77,83-103s87-124,79-159s19-162,9-170s-108-4.6-144-0.1s-101-6.9-128,2.1
+	S82.5,488,77,498C77,498,117,675.1,124,738.1z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="304.268" y1="354.8736" x2="306.4458" y2="530.0252" gradientTransform="matrix(1 0 0 -1 0 1024)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#385646"/>
+</linearGradient>
+<path class="st2" d="M332,725.1c-47.1,111.6-129.5,199.9-114,203c30,6,59-77,83-103s87-124,79-159s19-162,9-170
+	C384.2,492.2,376,620.7,332,725.1z"/>
+<title>Artboard 2</title>
+<path class="st3" d="M361,248c0,0,25-93,41-119s45-51,72-16s96,179,96,188s79,197,58,196s-60-9-81-9s-83,27-90,21s-35,16.5-63,13
+	c-24.8-3.2-60,4-72-12S361,248,361,248z"/>
+<path class="st4" d="M77,498c0,0,13,2,40,11s108-10,144-5.5S379,519,389,511s-17-135-9-170s-55-133-79-159S248,73,218,79
+	s-87,127-94,190S77,498,77,498z"/>
+<path class="st3" d="M389,511c10-8-17-135-9-170s-55-133-79-159S248,73,218,79c-15.5,3.1,66.9,91.4,114,203
+	C376,386.4,384.2,514.9,389,511z"/>
 </svg>

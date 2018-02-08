@@ -54,19 +54,23 @@
 }
 
 .mtn01 {
+    z-index: 1;
     background-image: url(/img/thailand/mountains01.svg);
     background-repeat: no-repeat;
 }
 .mtn02 {
+    z-index: 1;
     background-image: url(/img/thailand/mountains02.svg);
     background-repeat: no-repeat;
 }
 .sea {
+    z-index: 1;
     background-image: url(/img/thailand/sea.svg);
     background-repeat: no-repeat;
 
 }
 .sand {
+    z-index: 2;
     background-image: url(/img/thailand/sand.svg);
     background-repeat: no-repeat;
 }

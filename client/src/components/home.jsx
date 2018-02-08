@@ -27,7 +27,7 @@ export default class Home extends Component {
                 <Top imageUri='./img/logo.png'></Top>
                 <div className="worldContainer">
                     <Boat sound='./sound/water-swirl.wav'></Boat>
-                    <Background></Background>
+                    <Background sound='./sound/water-swirl.wav'></Background>
                 </div>
                 <Bottom imageUri='./img/logo2-light.png'></Bottom>
                 <Switch>
