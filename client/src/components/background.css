@@ -53,9 +53,25 @@
     text-align: center;
 }
 
+.sun {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 190px;
+    left: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .mtn01 {
     z-index: 1;
     background-image: url(/img/thailand/mountains01.svg);
+    background-repeat: no-repeat;
+}
+
+.sun {
+    z-index: 1;
+    background-image: url(/img/thailand/sun.svg);
     background-repeat: no-repeat;
 }
 .mtn02 {

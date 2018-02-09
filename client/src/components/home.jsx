@@ -46,7 +46,8 @@ export default class Home extends Component {
             <SignUp></SignUp>
                 <Top imageUri='./img/logo.png'></Top>
                 <div className="worldContainer blurOn">
-                    <Tree sound='./sound/water-swirl.wav'></Tree>
+                    <Tree></Tree>
+                    <Parakeet></Parakeet>
                     <Boat></Boat>
                     
                     <Background></Background>

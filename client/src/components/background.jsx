@@ -65,6 +65,7 @@ class Background extends Component {
            return (
        <div>       
            <div onMouseMove={this.onMouseMove.bind(this)} className='backgroundElements' ref='bgElements'>
+                <div className="sun" ref="sun"></div> 
                 <div className="sea"></div>
                 <div className="mtn03" ref="mountainThree"></div>
                 <div className="sand" ref="sand"></div>
