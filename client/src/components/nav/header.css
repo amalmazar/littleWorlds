@@ -62,6 +62,22 @@ a {
     padding: 0 15px;
 }
 
+.loginstuff {
+    height: 68px;
+}
+
+.side-nav li, .side-nav a, .side-nav div, .side-nav .right-align, .side-nav .left-align, .side-nav img {
+    clear: both;
+    text-align: center !important;
+}
+
+.side-nav p {
+    display: none;
+}
+
+.side-nav div {
+    margin: 0 15px;
+}
 
 @media only screen and (min-width: 1800px) {
     .userWelcome::after {

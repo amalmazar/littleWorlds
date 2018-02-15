@@ -30,7 +30,6 @@ export default class Shop extends Component {
   }
   componentDidMount() {
     browserHistory.push('/shop');
-    console.log("did mount")
   }
   render() {
     const {worlds} = this.state;

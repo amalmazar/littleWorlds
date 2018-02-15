@@ -3,14 +3,17 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { browserHistory } from 'react-router';
 import './../App.css';
 import Callback from './Callback';
+import { isLoggedIn } from './../utils/authService';
 import Top from './nav/header.jsx';
 import Bottom from './nav/footer.jsx';
 import SignUp from './signup.jsx';
-import Boat from './boat.jsx';
-import Parakeet from './parakeet.jsx';
-import Tree from './tree.jsx';
-import Background from './background.jsx';
-import { isLoggedIn } from './../utils/authService';
+
+//*/ Importing Thai Island Components /*//
+import Boat from './worldThaiIsland/boat.jsx';
+import Parakeet from './worldThaiIsland/parakeet.jsx';
+import Tree from './worldThaiIsland/tree.jsx';
+import Background from './worldThaiIsland/background.jsx';
+
 
 export default class Home extends Component {
 

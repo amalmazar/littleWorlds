@@ -5,20 +5,20 @@ import { login, logout, isLoggedIn } from './../../utils/authService';
 
 const Top = props => (
 
-<Navbar id="header" >
-    <NavItem href="/home"><img className="valign-wrapper logo left-align" src={props.imageUri} alt="logo"></img></NavItem>
+<Navbar id="header" className="slide-out" >
+    <NavItem href="/home"><img className="valign-wrapper logo " src={props.imageUri} alt="logo"></img></NavItem>
         {
             (isLoggedIn()) ?
             
-                ( <li className='valign-wrapper left-align'>
-                  <li className="userWelcome left-align">Welcome</li>
+                ( <div className='valign-wrapper left-align loginstuff'>
+                  <p className="userWelcome left-align">Welcome</p>
                   <a href='#logout' onClick={() => logout()}> Log out </a>
-                  </li>
+                  </div>
                  )
             :
-                ( <li className='valign-wrapper left-align'>
+                ( <div className='valign-wrapper left-align'>
                     <a href='#login' onClick={() => login()}>Log In</a>
-                  </li>)
+                  </div>)
         }
     
 	<NavItem href='/about' className='valign-wrapper right-align'>About</NavItem>
