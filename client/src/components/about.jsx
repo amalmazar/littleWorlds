@@ -23,7 +23,7 @@ export default class About extends Component {
                 </Col>
             </Row>
             <Row className='aboutContent'>
-                <Col l={6} className="animated fadeInUp">
+                <Col l={6} className="wow fadeInUp">
                     <h3>Header</h3>
                     <p>Licks your face small kitty warm kitty little balls of fur. Ears back wide eyed mark territory eat the fat cats food cat fur is the new black , warm up laptop with butt lick butt fart rainbows until owner yells pee in litter box hiss at cats i love cuddles my left donut is missing, as is my right. Lick arm hair attack the child if it smells like fish eat as much as you wish unwrap toilet paper scratch leg; meow for can opener to feed me slap kitten brother with paw need to chase tail.</p>
                 </Col>
@@ -35,7 +35,7 @@ export default class About extends Component {
                 <Col l={6}>
                     <p>image here</p>
                 </Col>
-                <Col l={6} className="animated fadeInUp">
+                <Col l={6} className="wow fadeInUp">
                     <h3>Header</h3>
                     <p> Instead of drinking water from the cat bowl, make sure to steal water from the toilet loves cheeseburgers lick butt. Loved it, hated it, loved it, hated it lies down or pee in human's bed until he cleans the litter box for under the bed, for claws in your leg, so find something else more interesting. Damn that dog hide when guests come over. </p>
                 </Col>
