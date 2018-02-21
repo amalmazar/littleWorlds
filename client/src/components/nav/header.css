@@ -79,8 +79,13 @@ a {
     margin: 0 15px;
 }
 
-@media only screen and (min-width: 1800px) {
-    .userWelcome::after {
-        content: " Your screen is too large. Mabybe you should consider getting a smaller, more practical screen."
+@media only screen and (min-width: 1700px) {
+    .nav-wrapper {
+        text-align: center !important;
+        margin: 0 auto;
+    }
+    #header a, #header img {
+        margin: 0 auto;
+        float: none;
     }
 }

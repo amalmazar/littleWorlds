@@ -2,9 +2,14 @@ import React from "react";
 import "./header.css";
 import {Navbar, NavItem} from 'react-materialize';
 import { login, logout, isLoggedIn } from './../../utils/authService';
+import userProfile from './../../utils/authService';
+
+
 
 const Top = props => (
 
+    
+    
 <Navbar id="header" className="slide-out" >
     <NavItem href="/home"><img className="valign-wrapper logo " src={props.imageUri} alt="logo"></img></NavItem>
         {
